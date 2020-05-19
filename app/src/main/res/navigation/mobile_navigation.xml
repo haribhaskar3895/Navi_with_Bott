@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/bottom_home"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/nav_edit_profile"
+        android:name="com.example.naviwithbott.ui.maineditprofile.MainEditProfileFragment"
+        android:label="Edit Profile"
+        tools:layout="@layout/main_edit_profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_subscribtion"
+        android:name="com.example.naviwithbott.ui.mainsubscribtion.MainSubscribtionFragment"
+        android:label="Subscribtion"
+        tools:layout="@layout/main_subscribtion_fragment" />
+
+    <fragment
+        android:id="@+id/nav_announcement"
+        android:name="com.example.naviwithbott.ui.mainannouncement.MainAnnouncementFragment"
+        android:label="Announcement"
+        tools:layout="@layout/main_announcement_fragment" />
+
+
+
+
+    <fragment
+        android:id="@+id/nav_suggestion"
+        android:name="com.example.naviwithbott.ui.mainsuggestion.MainSuggestionFragment"
+        android:label="Suggestion"
+        tools:layout="@layout/main_suggestion_fragment" />
+
+    <fragment
+        android:id="@+id/nav_invite"
+        android:name="com.example.naviwithbott.ui.maininviteuser.MainInviteUserFragment"
+        android:label="Invite User"
+        tools:layout="@layout/main_invite_user_fragment" />
+
+    <fragment
+        android:id="@+id/nav_customer_support"
+        android:name="com.example.naviwithbott.ui.maincustomersupport.MainCustomerSupportFragment"
+        android:label="Customer Support"
+        tools:layout="@layout/main_customer_support_fragment" />
+
+    <fragment
+        android:id="@+id/bottom_home"
+        android:name="com.example.naviwithbott.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/bottom_subscription"
+        android:name="com.example.naviwithbott.ui.mainsubscribtion.MainSubscribtionFragment"
+        android:label="@string/menu_subscribtion"
+        tools:layout="@layout/main_subscribtion_fragment" />
+
+    <fragment
+        android:id="@+id/bottom_search"
+        android:name="com.example.naviwithbott.ui.mainsearch.MainSearchFragment"
+        android:label="Search"
+        tools:layout="@layout/main_search_fragment" />
+
+    <fragment
+        android:id="@+id/bottom_more"
+        android:name="com.example.naviwithbott.ui.mainmore.MainMoreFragment"
+        android:label="More"
+        tools:layout="@layout/main_more_fragment" />
+</navigation>

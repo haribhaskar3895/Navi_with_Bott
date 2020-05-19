@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Edit person" />
+        <item
+            android:id="@+id/nav_subscribtion"
+            android:icon="@drawable/subscription"
+            android:title="Subscribition" />
+        <item
+            android:id="@+id/nav_announcement"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Announcement" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_invite"
+                android:icon="@drawable/invite"
+                android:title="Invite User" />
+            <item
+                android:id="@+id/nav_customer_support"
+                android:icon="@drawable/ic_headset_mic_black_24dp"
+                android:title="Customer Support" />
+            <item
+                android:id="@+id/nav_suggestion"
+                android:icon="@drawable/ic_comment_black_24dp"
+                android:title="Make Suggestion" />
+        </menu>
+    </item>
+
+</menu>

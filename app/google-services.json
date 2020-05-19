@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "65581768826",
+    "firebase_url": "https://navi-with-bott.firebaseio.com",
+    "project_id": "navi-with-bott",
+    "storage_bucket": "navi-with-bott.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65581768826:android:58675ed1ec84ffed531bc3",
+        "android_client_info": {
+          "package_name": "com.example.naviwithbott"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65581768826-5f7kcketpfkejecsif2dlc13h8mmr2ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnf5CkjvoZ801r7KG8OZ2p0ylpLlx_YPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65581768826-5f7kcketpfkejecsif2dlc13h8mmr2ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
